@@ -8,11 +8,12 @@ import (
 	"github.com/brocaar/chirpstack-api/go/as/external/api"
 	"google.golang.org/grpc"
 	//"google.golang.org/grpc/credentials"
+	//"github.com/wiriyamanuwong/project-go-lab/"
 )
 
 const (
 	serverAddress = "192.168.3.169:8080" // แก้ไขตามที่ ChirpStack ของคุณใช้
-	//serverAddress = "https://chirpstack.natoncloud.com"
+	//serverAddress = "https://chirpstack.natoncloud.com"go version
 )
 
 func main() {
