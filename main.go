@@ -8,7 +8,12 @@ import (
 	"github.com/brocaar/chirpstack-api/go/as/external/api"
 	"google.golang.org/grpc"
 	//"google.golang.org/grpc/credentials"
-	//"github.com/wiriyamanuwong/project-go-lab/"
+	//"github.com/wiriyamanuwong/project-go-lab/basicfunc"
+	//"github.com/wiriyamanuwong/project-go-lab/basicfunc"
+	//"/project-go-lab/basicfunc"
+	//"/basicfunc/basicfunc"
+	//"basicfunc"
+	//Module "/home/siripong/project-go-lab/basicfunc"
 )
 
 const (
@@ -37,7 +42,6 @@ func main() {
 	}
 
 	// แสดงผลลัพธ์
-	fmt.Printf("Token: %s\n", response.GetJwt())
 	fmt.Printf("Token: %s\n", response.GetJwt())
 }
 
